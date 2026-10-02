@@ -1,4 +1,4 @@
-![Docker Pulls](https://img.shields.io/docker/pulls/kamikac/leaf2mqtt) ![Docker Image Version (latest by date)](https://img.shields.io/docker/v/kamikac/leaf2mqtt) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kamiKAC/leaf2mqtt/leaf2mqtt.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/kamiKAC/leaf2mqtt/leaf2mqtt.yml)
 
 # leaf2mqtt
 > :warning: olderCanada and olderUSA support may break at anytime because Nissan keep changing the API key. Thank you Nissan for working against your customers.
@@ -46,9 +46,13 @@ Click the icon below to add this repository to your Home Assistant instance or f
 [![Install leaf2mqtt add-on repo.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2FkamiKAC%2Fleaf2mqtt)
 
 ### Pre-built images
-You can use pre-built images from here: https://hub.docker.com/r/kamikac/leaf2mqtt
+Pre-built multi-arch images (amd64, arm64 e.g. Raspberry Pi) are published to the GitHub Container Registry:
 
-tag example: `kamikac/leaf2mqtt:latest`
+    docker pull ghcr.io/jvcaloen/leaf2mqtt:latest
+
+tag example: `ghcr.io/jvcaloen/leaf2mqtt:latest`
+
+> The European login (`newerThanMay2019`) uses the new MyNISSAN OneID login (patched copy of dartnissanconnect in `third_party/`). If login still fails, reset your password via the MyNissan app/website first.
 
 ### Building the image
 

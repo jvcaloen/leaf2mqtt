@@ -5,9 +5,7 @@ dependencies:
   dartnissanconnectna:
     git: https://gitlab.com/tobiaswkjeldsen/dartnissanconnectna
   dartnissanconnect:
-    git:
-      url: https://github.com/kamiKAC/dartnissanconnect
-      ref: v1.0.5
+    path: third_party/dartnissanconnect
   dartcarwings:
     git:
       url: https://github.com/kamiKAC/dartcarwings
