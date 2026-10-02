@@ -52,7 +52,7 @@ Pre-built multi-arch images (amd64, arm64 e.g. Raspberry Pi) are published to th
 
 tag example: `ghcr.io/jvcaloen/leaf2mqtt:latest`
 
-> The European login (`newerThanMay2019`) uses the new MyNISSAN OneID login (patched copy of dartnissanconnect in `third_party/`). If login still fails, reset your password via the MyNissan app/website first.
+> **Authentication (Europe, `newerThanMay2019`):** login now uses the new MyNISSAN OneID flow (patched copy of dartnissanconnect in `third_party/`). Use the same username and password as in the MyNissan app/website. If login still fails, reset your password via the MyNissan app/website first. Other `LEAF_TYPE` values are unchanged.
 
 ### Building the image
 
