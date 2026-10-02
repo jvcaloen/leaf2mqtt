@@ -4,6 +4,7 @@ ARG APP_VERSION=unknown
 WORKDIR /app
 
 COPY pubspec.* ./
+COPY third_party third_party
 RUN dart pub get
 
 COPY . .
