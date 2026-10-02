@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.5](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.4...v0.0.5) (2026-10-02)
+
+
+### Bug Fixes
+
+* European login now uses the new MyNISSAN OneID authentication (patched dartnissanconnect in `third_party/`)
+
+
+### Documentation
+
+* document the authentication changes in the README
+
 ## [0.0.4](https://github.com/jvcaloen/leaf2mqtt/compare/v0.1.0...v0.0.4) (2026-10-02)
 
 
