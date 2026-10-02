@@ -1,12 +1,10 @@
 FROM dart:2.19.6-sdk AS build
 ARG APP_VERSION=unknown
 
-RUN apt-get update && \
-    apt-get install -y git
-
 WORKDIR /app
 
 COPY pubspec.* ./
+COPY third_party third_party
 RUN dart pub get
 
 COPY . .
