@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.7](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.6...v0.0.7) (2026-10-03)
+
+
+### Bug Fixes
+
+* publish multi-arch image (amd64, arm64, arm/v7) ([8c234ca](https://github.com/jvcaloen/leaf2mqtt/commit/8c234ca30eef54113bc51c4309b2f215e6fa082d))
+
 ## [0.0.6](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.5...v0.0.6) (2026-10-03)
 
 
