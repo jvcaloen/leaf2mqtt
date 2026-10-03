@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.5...v0.0.6) (2026-10-03)
+
+
+### Bug Fixes
+
+* set last-release-sha at top level of release-please config ([bdbac77](https://github.com/jvcaloen/leaf2mqtt/commit/bdbac772b5e0ff4ab9b9d3b82d0a5a651e685fc4))
+* trigger release after release-please recovery ([1e5ea5a](https://github.com/jvcaloen/leaf2mqtt/commit/1e5ea5a1b9ac217328fa222ed5977e16d5e2bfb5))
+
 ## [0.0.5](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.4...v0.0.5) (2026-10-02)
 
 
