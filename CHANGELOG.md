@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.8](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.7...v0.0.8) (2026-10-03)
+
+
+### Bug Fixes
+
+* build image for amd64 and arm64 only (arm/v7 build crashes under QEMU) ([ee123c5](https://github.com/jvcaloen/leaf2mqtt/commit/ee123c5fd517b3a1435f124293d802ae024ab93b))
+
 ## [0.0.7](https://github.com/jvcaloen/leaf2mqtt/compare/v0.0.6...v0.0.7) (2026-10-03)
 
 
