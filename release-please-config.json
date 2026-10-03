@@ -1,9 +1,9 @@
 {
   "release-type": "dart",
   "include-component-in-tag": false,
+  "last-release-sha": "f19b8a30bb0c87be3f6c279a541c8dc0a83530d3",
   "packages": {
     ".": {
-      "last-release-sha": "f19b8a30bb0c87be3f6c279a541c8dc0a83530d3",
       "types": [
         { "type": "feat", "section": "Features" },
         { "type": "fix", "section": "Bug Fixes" },
