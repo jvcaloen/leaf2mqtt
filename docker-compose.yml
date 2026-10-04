@@ -3,7 +3,7 @@ version: "3"
 services:
   leaf2mqtt:
     container_name: leaf2mqtt
-    image: kamikac/leaf2mqtt
+    image: ghcr.io/jvcaloen/leaf2mqtt:latest
     logging:
       options:
         max-size: "1M"
